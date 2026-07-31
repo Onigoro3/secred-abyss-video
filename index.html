@@ -3,21 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Secred Abyss Video</title>
+<title>Japan in 60 | 60秒でめぐる日本の絶景</title>
+<meta name="description" content="Japan in 60は、日本各地の名所・絶景を60秒の動画で紹介するトラベルコンテンツシリーズです。YouTube・TikTokで配信中。">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; max-width: 640px; margin: 60px auto; padding: 0 20px; line-height: 1.8; color: #222; }
-  h1 { font-size: 1.6em; }
-  a { color: #d02b55; }
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; margin: 0; padding: 0; line-height: 1.8; color: #1a1a1a; background: #fff; }
+  header.hero { background: linear-gradient(135deg, #d02b55, #7a1f3d); color: #fff; padding: 72px 20px; text-align: center; }
+  header.hero h1 { font-size: 2.2em; margin: 0 0 12px; letter-spacing: 0.02em; }
+  header.hero p { font-size: 1.05em; margin: 0 auto; max-width: 560px; opacity: 0.95; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 56px 0; border-bottom: 1px solid #eee; }
+  section h2 { font-size: 1.5em; margin-bottom: 0.6em; }
+  .videos { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 24px; }
+  .video-card iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 10px; }
+  .video-card p { margin: 10px 0 0; font-size: 0.95em; color: #444; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; margin-top: 24px; }
+  .feature h3 { font-size: 1.05em; margin-bottom: 6px; }
+  .feature p { margin: 0; color: #444; font-size: 0.95em; }
+  .links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 16px; }
+  .links a { display: inline-block; padding: 10px 20px; border-radius: 24px; background: #d02b55; color: #fff; text-decoration: none; font-weight: 600; }
+  .links a.secondary { background: #222; }
+  footer { text-align: center; padding: 40px 20px; font-size: 0.9em; color: #666; }
+  footer a { color: #d02b55; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #121212; color: #eee; }
+    section { border-bottom-color: #2a2a2a; }
+    .feature p, .video-card p { color: #bbb; }
+    footer { color: #999; }
+  }
 </style>
 </head>
 <body>
-  <h1>Secred Abyss Video</h1>
-  <p>Secred Abyss Videoは、個人(運営者: onigoro)が開発・運用するAIエージェント向けの動画生成・投稿ツールです。AIエージェントが生成した短尺動画をTikTok等のプラットフォームへAPI経由で投稿するための内部ツールとして開発しています。</p>
-  <p>一般ユーザー向けの公開サービスではなく、開発者本人のアカウントでの利用を目的としています。</p>
-  <ul>
-    <li><a href="./privacy-policy.html">プライバシーポリシー</a></li>
-    <li><a href="./terms-of-service.html">利用規約</a></li>
-  </ul>
+
+<header class="hero">
+  <h1>Japan in 60</h1>
+  <p>日本各地の名所・絶景を、60秒の動画でめぐるトラベルコンテンツシリーズ。</p>
+</header>
+
+<div class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <p>「Japan in 60」は、姫路城・伏見稲荷大社・浅草寺・金閣寺・大阪城・嵐山の竹林など、日本を代表する名所を1本60秒に凝縮して紹介するショート動画シリーズです。忙しい人でも旅先の雰囲気をすぐに感じられるよう、映像・字幕・BGMを組み合わせて制作しています。YouTubeを中心に、TikTok等のショートフォーム動画プラットフォームでも展開しています。</p>
+  </section>
+
+  <section id="videos">
+    <h2>Featured Videos</h2>
+    <div class="videos">
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/I4O2WAohvkE" title="Himeji Castle in 60 Seconds" loading="lazy" allowfullscreen></iframe>
+        <p>Himeji Castle in 60 Seconds</p>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/RI4mKDddH18" title="Fushimi Inari Shrine in 60 Seconds" loading="lazy" allowfullscreen></iframe>
+        <p>Fushimi Inari Shrine in 60 Seconds</p>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/2-RIvHltJ2s" title="Kinkaku-ji: Kyoto's Golden Pavilion" loading="lazy" allowfullscreen></iframe>
+        <p>Kinkaku-ji: Kyoto's Stunning Golden Pavilion</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>60秒に凝縮</h3>
+        <p>移動時間や待ち時間でも見終えられる、テンポの良い60秒構成。</p>
+      </div>
+      <div class="feature">
+        <h3>日本各地の名所</h3>
+        <p>寺社仏閣から城郭、自然景観まで、幅広いスポットを継続的に紹介。</p>
+      </div>
+      <div class="feature">
+        <h3>マルチプラットフォーム配信</h3>
+        <p>YouTubeでの通常配信に加え、TikTok等のショートフォーム動画としても展開。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2>Watch More</h2>
+    <p>最新動画はYouTubeチャンネルで随時公開しています。</p>
+    <div class="links">
+      <a href="https://www.youtube.com/channel/UCpa-3qOSFfcZK1bfdzQVUzA" target="_blank" rel="noopener">YouTubeチャンネル</a>
+      <a href="https://www.tiktok.com/@japan_in_60" class="secondary" target="_blank" rel="noopener">TikTok</a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>
+    <a href="./privacy-policy.html">プライバシーポリシー</a> ・
+    <a href="./terms-of-service.html">利用規約</a>
+  </p>
   <p>お問い合わせ: onigoro3@gmail.com</p>
+  <p>&copy; 2026 Japan in 60</p>
+</footer>
+
 </body>
 </html>
