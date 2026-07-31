@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://onigoro3.github.io/secred-abyss-video/sitemap.xml
